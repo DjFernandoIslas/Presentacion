@@ -1,0 +1,132 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* estilos del index */
+
+/* estilos del header */
+
+/* seccion del header y el main */
+.header_and_main_section{
+    background-image: url(../img/main_wallpaper.jpg);
+    width: 100%;
+}
+
+/* ESTILOS DEL ENCABEZADO */
+
+.index_header{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgb(52, 1, 52) 60%);
+    display: grid;
+    grid-template-rows: 80px;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+
+/* logo del encabezado */
+.fernando_header_logo{
+    width: 100px;
+    padding-left: 30px;
+    padding-top: 0;
+}
+
+/* contenedor del logo del header */
+.fernando_header_logo_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* estilos del container de la lista */
+.index_header_list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* estilos de la lista */
+.index_header_list ul{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 120px 120px;
+    list-style: none;
+}
+
+/* estilos de la letra de la lista del header */
+.index_header_list ul a{
+    text-decoration: none;
+    color: white;
+}
+
+/* FIN ESTILOS DEL ENCABEZADO */
+
+/* ESTILOS MAIN */
+
+/* Estilo del main container principal */
+.index_main{
+    height: 450px;
+}
+
+/* estilos container del logo en main */
+.index_main_logo_container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+/* estilos logo del main */
+.fernando_main_logo{
+    display: flex;
+    width: 400px;
+    filter: drop-shadow(-2px 2px 2px rgb(234, 0, 255));
+    -webkit-filter: drop-shadow(-2px 2px 2px rgb(234, 0, 255));
+}
+
+/* estilos del texto del main */
+.main_texto p{
+    color: white;
+    font-size: 130%;
+}
+
+/* estilos de los botones del main */
+.main_button{
+  background: #eb94d0;
+  background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+  font-family: Arial;
+  color: #fafafa;
+  padding: 19px;
+  text-decoration: none;
+  margin: 10px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+}
+
+
+/* estilos HOVER de los botones del mail */
+.main_button:hover{
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+    text-decoration: none;
+    cursor: hand;
+    filter: drop-shadow(-2px 2px 2px rgb(234, 0, 255));
+    -webkit-filter: drop-shadow(-2px 2px 2px rgb(234, 0, 255));
+}
