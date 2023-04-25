@@ -137,6 +137,27 @@ html{
 
 /* Inicio estilos integrador */
 
-.main_integrador_container{
-    background-image: url(../img/imagenes_integrador_front/ba1.jpg);
+.main_integrador_fondo{
+    background-size: cover;
+    min-height: 100vh;
 }
+
+.integrador_main_wrapper_container{
+    height: 50%;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.integrador_wrapper_text{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding-right: 30px;
+    padding-top: 250px;
+}
+
+.integrador_fondo_negro{
+    
+}
+
