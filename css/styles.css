@@ -130,3 +130,13 @@ html{
     filter: drop-shadow(-2px 2px 2px rgb(234, 0, 255));
     -webkit-filter: drop-shadow(-2px 2px 2px rgb(234, 0, 255));
 }
+
+
+
+/* Fin estilos Index */
+
+/* Inicio estilos integrador */
+
+.main_integrador_container{
+    background-image: url(../img/imagenes_integrador_front/ba1.jpg);
+}
