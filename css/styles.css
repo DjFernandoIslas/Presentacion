@@ -150,14 +150,6 @@ html{
 }
 
 .integrador_wrapper_text{
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    padding-right: 30px;
+    padding-right: 120px;
     padding-top: 250px;
 }
-
-.integrador_fondo_negro{
-    
-}
-
