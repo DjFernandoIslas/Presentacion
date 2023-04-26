@@ -142,13 +142,6 @@ html{
     min-height: 100vh;
 }
 
-.integrador_main_wrapper_container{
-    height: 50%;
-    position:relative;
-    display: flex;
-    flex-direction: column;
-}
-
 .integrador_wrapper_text{
     padding-right: 120px;
     padding-top: 250px;
