@@ -135,14 +135,3 @@ html{
 
 /* Fin estilos Index */
 
-/* Inicio estilos integrador */
-
-.main_integrador_fondo{
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.integrador_wrapper_text{
-    padding-right: 120px;
-    padding-top: 250px;
-}
