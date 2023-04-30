@@ -43,18 +43,32 @@
     </nav>
   </header>  
       <!-- seccion principal -->
-      <main class="container-fluid p-0">
-        <div style="background-image: url(./img/imagenes_integrador_front/ba1.jpg); background-size: cover;">
-          <div class="row mx-0">
-            <div class="col-md-6 col-12 text-md-end text-center text-light p-5">
+      <main class="container-fluid" style="background-image: url(./img/imagenes_integrador_front/ba1.jpg); background-size: cover;  background-repeat: no-repeat; min-height: 100vh; display: flex;">
+        <div class="row" style=" background-color: rgba(0, 0, 0, 0.534);">
+          <div class="d-none d-md-block col-md-6"></div>
+          <div class="col-md-6 col-12 d-flex justify-content-center justify-content-md-end align-items-center integrador-wrapper-text">
+            <div class="text-white">
               <h3>Conf Bs As</h3>
-              <p>Bs As llega por primera vez a Argentina, un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+              <p>Bs As llega por primera vez a Argentina, un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. ¡Te esperamos!</p>
               <button type="button" class="btn btn-outline-light m-1">Quiero ser orador</button>
               <button type="button" class="btn btn-success m-1">Comprar tickets</button>
             </div>
           </div>
         </div>
       </main>
+      <!-- perdooon no se me ocurrio como hacerlo sin css xddd -->
+      <style>
+        @media (max-width: 767.98px) {
+          .integrador-wrapper-text {
+            width: 100%;
+          }
+        }
+        @media (min-width: 768px) {
+          .integrador-wrapper-text {
+            width: 50%;
+          }
+        }
+      </style>
 <!-- Seccion Cards de oradores -->
 <section>
   <!-- Titulo de seccion Cards -->
